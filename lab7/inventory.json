@@ -1,0 +1,42 @@
+[
+    {
+        "product_id": "P001",
+        "type": "physical",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "weight": 2.5
+    },
+    {
+        "product_id": "P002",
+        "type": "physical",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 40,
+        "weight": 0.2
+    },
+    {
+        "product_id": "D001",
+        "type": "digital",
+        "name": "Photo Editor",
+        "price": 49.99,
+        "stock": 100,
+        "download_size": 450.0
+    },
+    {
+        "product_id": "P003",
+        "type": "physical",
+        "name": "Guitar",
+        "price": 350.0,
+        "stock": 5,
+        "weight": 3.5
+    },
+    {
+        "product_id": "D002",
+        "type": "digital",
+        "name": "E-Book",
+        "price": 12.5,
+        "stock": 50,
+        "download_size": 8.2
+    }
+]
