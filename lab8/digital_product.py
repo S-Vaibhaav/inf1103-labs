@@ -1,0 +1,23 @@
+from product import Product
+from supplier import Supplier
+
+
+class DigitalProduct(Product):
+    """A digital product IS-A Product. It is NOT shipped."""
+
+    def __init__(self, product_id: str, name: str, price: float, stock: int,
+                 supplier: Supplier, download_size: float) -> None:
+        # Pass everything the parent needs (including the Supplier) up with super()
+        super().__init__(product_id, name, price, stock, supplier)
+        self.__download_size: float = download_size  # in megabytes
+
+    def get_download_size(self) -> float:
+        return self.__download_size
+
+    def get_fulfilment_info(self) -> str:
+        return "This product is delivered digitally (download link)."
+
+    def display_information(self) -> None:
+        super().display_information()  # parent prints the common info
+        print(f"    Download size: {self.__download_size:.1f} MB")
+        print(f"    Fulfilment: {self.get_fulfilment_info()}")
