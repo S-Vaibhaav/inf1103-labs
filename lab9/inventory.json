@@ -1,0 +1,79 @@
+{
+    "suppliers": [
+        {
+            "supplier_id": "S001",
+            "name": "TechSource Pte Ltd",
+            "contact_email": "sales@techsource.com"
+        },
+        {
+            "supplier_id": "S002",
+            "name": "SoftWorks Studio",
+            "contact_email": "hello@softworks.com"
+        }
+    ],
+    "products": [
+        {
+            "product_id": "L001",
+            "type": "physical",
+            "name": "Laptop",
+            "price": 1200.0,
+            "stock": 15,
+            "supplier_id": "S001",
+            "weight": 2.5
+        },
+        {
+            "product_id": "L002",
+            "type": "physical",
+            "name": "Mouse",
+            "price": 25.5,
+            "stock": 40,
+            "supplier_id": "S001",
+            "weight": 0.2
+        },
+        {
+            "product_id": "L003",
+            "type": "digital",
+            "name": "Photo Suite",
+            "price": 49.99,
+            "stock": 100,
+            "supplier_id": "S002",
+            "download_size": 450.0
+        },
+        {
+            "product_id": "1002",
+            "type": "physical",
+            "name": "USB Cable",
+            "price": 12.5,
+            "stock": 10,
+            "supplier_id": "S001",
+            "weight": 0.5
+        },
+        {
+            "product_id": "P001",
+            "type": "physical",
+            "name": "Desk Lamp",
+            "price": 25.0,
+            "stock": 10,
+            "supplier_id": "S002",
+            "weight": 0.0
+        },
+        {
+            "product_id": "D001",
+            "type": "digital",
+            "name": "Photo Editor",
+            "price": 49.9,
+            "stock": 100,
+            "supplier_id": "S002",
+            "download_size": 0.0
+        },
+        {
+            "product_id": "P003",
+            "type": "physical",
+            "name": "Monitor Stand",
+            "price": 39.5,
+            "stock": 7,
+            "supplier_id": "S002",
+            "weight": 0.0
+        }
+    ]
+}
